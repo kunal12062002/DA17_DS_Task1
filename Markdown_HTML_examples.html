@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    .heading {
+      color: red;
+    }
+    .subheading {
+      color: green;
+    }
+    .subheading2 {
+      color: blue;
+      text-shadow: pink 1px 1px, purple 2px 2px;
+        font-size: 1.2em;
+        font-style: oblique;
+    }
+    .text-bold {
+      font-weight: bold;
+    }
+    .text-italic {
+      font-style: italic;
+    }
+    .text-bold-italic {
+      font-weight: bold;
+      font-style: italic;
+    }
+    .list {
+      margin-left: 20px;
+    }
+    .list-item {
+      margin-bottom: 5px;
+    }
+    .code-block {
+      background-color: #f4f4f4;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .quote {
+      border-left: 5px solid #ccc;
+      padding-left: 10px;
+      color: #555;
+    }
+    .external-link {
+      color: blue;
+      text-decoration: none;
+    }
+    .image {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Example 1: Heading -->
+<h1 id="main-heading" class="heading">Heading Level 1</h1>
+<h2 class="subheading">Heading Level 2</h2>
+<h3 class="subheading2">Heading Level 3</h3>
+
+<!-- Example 2: Bold and Italic -->
+<p class="text-bold"><strong>Bold text</strong></p>
+<p class="text-italic"><em>Italic text</em></p>
+<p id="bold-italic" class="text-bold-italic"><strong><em>Bold and Italic text</em></strong></p>
+
+<!-- Example 3: Lists -->
+<ul id="unordered-list" class="list">
+  <li class="list-item">Item 1</li>
+  <li class="list-item">Item 2</li>
+  <li class="list-item">Item 3</li>
+</ul>
+<ol id="ordered-list" class="list">
+  <li class="list-item">First</li>
+  <li class="list-item">Second</li>
+  <li class="list-item">Third</li>
+</ol>
+
+<!-- Example 4: Code -->
+<pre class="code-block"><code id="python-code">print("Hello, world!")</code></pre>
+
+<!-- Example 5: Blockquote -->
+<blockquote class="quote">
+  <p>This is a blockquote.</p>
+</blockquote>
+
+<!-- Example 6: Links and Images -->
+<p><a href="https://www.example.com" class="external-link">Example Link</a></p>
+<p><img src="https://via.placeholder.com/150" alt="Sample Image" id="sample-image" class="image"></p>
+
+<!-- Example 7: Table -->
+<table id="data-table" class="table">
+  <thead>
+    <tr>
+      <th>Column 1</th>
+      <th>Column 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Row 1, Cell 1</td>
+      <td>Row 1, Cell 2</td>
+    </tr>
+    <tr>
+      <td>Row 2, Cell 1</td>
+      <td>Row 2, Cell 2</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
